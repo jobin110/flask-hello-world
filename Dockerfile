@@ -2,8 +2,8 @@ FROM python:3
 
 RUN pip install Flask
 
-RUN mkdir -p /usr/src/sample-python-server
-WORKDIR /usr/src/sample-python-server
+RUN mkdir -p /usr/src/flask-hello-world
+WORKDIR /usr/src/flask-hello-world
 COPY src/ .
 
 EXPOSE 5000
